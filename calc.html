@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>Calculadora :)</title>
+        <script src="calc.js"></script>
+        <link rel="stylesheet" href="css.css">
+    </head>
+    <body>
+        <div id="botones">
+            <input type="text" id="pantalla" name="num" onclick="vaciar()"></input>
+            <!-- <h2 id="info" class="grande" title="Info sobre número">Info sobre número</h2>-->
+            <!-- <h2>Operaciones unitarias</h2> -->
+            <!-- <h2>Operaciones binarias</h2> -->
+            <!-- <h2>Operaciones en formato CSV</h2> -->
+            <button id="gris" onclick="quitar()">AC</button>
+            <button id="gris" onclick="mod()">+/-</button>
+            <button id="gris" onclick="porcentaje()">%</button>
+            <button id="naranja" onclick="dividir()">÷</button><br>
+
+            <button id="cuadrado" onclick="cuadrado()">x<sup>2</sup></button>
+            <button id="cubo" onclick="cubo()">x<sup>3</sup></button>
+            <button id="fact" onclick="fact()">x!</button>
+            <button id="naranja" onclick="multiplicar()">X</button><br>
+
+            <button id="sumatorio" onclick="sumatorio()">Σ</button>
+            <button id="ordenar" onclick="ordenar()">Ord</button>
+            <button id="revertir" onclick="revertir()">Rev</button>
+            <button id="naranja" onclick="restar()">-</button><br>
+        
+            <button id="grande" onclick="igual()">=</button>
+            <button id="naranja" onclick="sumar()">+</button>
+           </div> 
+        </div>
+    </body> 
+</html>
